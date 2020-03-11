@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2501E702418DD5300114C64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2501E6F2418DD5300114C64 /* main.cpp */; };
+		A2501E782418DE8D00114C64 /* virtual_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2501E762418DE8D00114C64 /* virtual_func.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A2501E6C2418DD5300114C64 /* practice-cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "practice-cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2501E6F2418DD5300114C64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2501E762418DE8D00114C64 /* virtual_func.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = virtual_func.cpp; sourceTree = "<group>"; };
+		A2501E772418DE8D00114C64 /* virtual_func.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = virtual_func.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A2501E6F2418DD5300114C64 /* main.cpp */,
+				A2501E762418DE8D00114C64 /* virtual_func.cpp */,
+				A2501E772418DE8D00114C64 /* virtual_func.hpp */,
 			);
 			path = "practice-cpp";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2501E702418DD5300114C64 /* main.cpp in Sources */,
+				A2501E782418DE8D00114C64 /* virtual_func.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
